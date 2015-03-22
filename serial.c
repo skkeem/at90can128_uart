@@ -7,7 +7,7 @@ void initUart (unsigned int baud)
 	UBRR0L = (unsigned char) (0xff & baud);
 
 	/*
-	 * Enable Tx, Rx as an asynchronous mode
+	 * Enable Tx, Rx as an asynchronous normal mode
 	 * Frame format : 8 data, no parity, 1 stop bits
 	 * Disable all interrupts
 	 */
