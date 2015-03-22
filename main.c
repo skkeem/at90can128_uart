@@ -6,5 +6,5 @@
 int main(void)
 {
     initUart(UBRR_VAL);
-	putString("Hello world!");
+    putString("Hello world!");
 }
